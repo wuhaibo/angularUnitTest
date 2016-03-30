@@ -1,0 +1,19 @@
+<!doctype html>
+<!--link module and view -->
+<html lang="en" ng-app="phonecatApp" >
+<head>
+  <meta charset="utf-8">
+  <title>Google Phone Gallery</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="js/controllers.js"></script>
+</head>
+<!--controller of module-->
+<body ng-controller="PhoneListCtrl">
+  <p>Hello, {{name}}!</p> 
+  <div>
+    <botton ng-click="GetUser()">test</botton>
+  </div>
+</body>
+</html>
